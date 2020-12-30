@@ -1,0 +1,193 @@
+body {
+    background-color: #fff;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eee;
+}
+
+.content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.notification {
+    text-align: center;
+}
+
+/** button **/
+.btn {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+
+    background: rgb(241, 241, 241);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(241, 241, 241, 1) 0%, rgba(232, 232, 232, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(241, 241, 241, 1) 0%, rgba(232, 232, 232, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(241, 241, 241, 1) 0%, rgba(232, 232, 232, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f1f1f1', endColorstr='#e8e8e8', GradientType=0);
+    /* IE6-9 */
+}
+
+/** table **/
+.table {}
+
+.table tr th,
+.table tr td {}
+
+.table thead {
+    background: rgb(241, 241, 241);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(241, 241, 241, 1) 0%, rgba(232, 232, 232, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(241, 241, 241, 1) 0%, rgba(232, 232, 232, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(241, 241, 241, 1) 0%, rgba(232, 232, 232, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f1f1f1', endColorstr='#e8e8e8', GradientType=0);
+    /* IE6-9 */
+}
+
+.table thead tr th {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+
+.table thead tr th:last-child {
+    border-right: 1px solid #ccc;
+}
+
+.table tbody tr:first-child td {
+    border-top: 1px solid #eee;
+}
+
+.table tbody tr td {
+    padding: 5px 10px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+
+.table tbody tr td:last-child {
+    border-right: 1px solid #ccc;
+}
+
+/** form **/
+.table-form {
+    padding: 0;
+}
+
+.table-form tr td {
+    padding: 5px;
+}
+
+label {
+    display: block;
+}
+
+.form {
+    padding: 3px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    border: 1px;
+    background-color: RGBA(250, 178, 155, 0.78);
+}
+
+.navbar {
+    border-radius: 0px;
+    background-color: RGBA(250, 178, 155, 0.78);
+}
+
+.navbar-default {
+    background-color: RGBA(250, 178, 155, 0.78);
+    padding: 20px 0;
+    transition: all 0.3s;
+
+}
+
+.navbar-default {
+    background-color: RGBA(250, 178, 155, 0.78);
+    border: 0px;
+}
+
+.navbar {
+    border-radius: 0px;
+    background-color: RGBA(250, 178, 155, 0.78);
+}
+
+.navbar-brand {
+    font-family: 'Chewy', cursive;
+    font-size: 32px;
+}
+
+.navbar-brand img {
+    padding-top: 1px;
+    width: 120px !important;
+}
+
+.navbar-login img {
+    padding-top: 20px;
+    width: 30px !important;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #EA6045;
+}
+
+.top-nav-collapse {
+    padding: 0;
+    margin-top: -10px;
+    background: rgba(250, 178, 155, 0.9);
+
+}
+
+.white,
+.white:hover,
+.white:focus {
+    color: #fff;
+    width: 100% !important;
+}
+
+.block {
+    display: block;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    text-transform: uppercase;
+    background-color: rgba(12, 184, 182, 0.21);
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #fff;
+    text-transform: uppercase;
+    background-color: rgba(12, 184, 182, 0.21);
+}
